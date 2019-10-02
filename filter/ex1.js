@@ -12,6 +12,12 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
+  const onsenfout = numbers.filter(num => {
+    if (num >= 0) {
+      return `${num.numbers}`;
+    };
+  });
+  return onsenfout;
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
