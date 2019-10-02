@@ -14,7 +14,7 @@ Sortie attendue:
 function getPositiveNumbers(numbers) {
   const onsenfout = numbers.filter(num => {
     if (num >= 0) {
-      return `${num.numbers}`;
+      return [num];
     };
   });
   return onsenfout;
