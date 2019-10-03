@@ -1,11 +1,10 @@
 const getMoviesFreshness = require('../map/ex3.js');
 
-xdescribe('map - exercice 3', () => {
+describe('map - exercice 3', () => {
 
   test('getMoviesFreshness', () => {
     expect(getMoviesFreshness(
-      [
-        {
+      [{
           name: 'Crazy Rich Asians',
           rating: 93
         },
@@ -23,8 +22,7 @@ xdescribe('map - exercice 3', () => {
         }
       ]
     )).toEqual(
-      [
-        {
+      [{
           name: 'Crazy Rich Asians',
           rating: 93,
           label: 'certified fresh'
@@ -49,4 +47,3 @@ xdescribe('map - exercice 3', () => {
   });
 
 });
-
